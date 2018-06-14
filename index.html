@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pig Dice</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-md-4">
+            <h1>Player 1 Score:</h1>
+            <h2 id="player1Score">0</h2>
+          </div>
+          <div class="col-md-4">
+            <h1>Pig Dice</h1>
+            <img id="dice" src="img/dice.jpg" alt="">
+            <h2 id="victory"></h2>
+
+          </div>
+          <div class="col-md-4">
+            <h1>Player 2 Score:</h1>
+            <h2 id="player2Score">0</h2>
+
+          </div>
+
+        </div>
+          <div class="row" id="scoreFrame">
+            <div class="col-md-4">
+            </div>
+            <div class="col-md-2">
+              <h1 id ="diceResult">0</h1>
+              <h3>Die Roll</h3>
+            </div>
+            <div class="col-md-2">
+              <h1 id="score">0</h1>
+              <h3>Running total</h3>
+            </div>
+            <div class="col-md-4">
+            </div>
+          </div>
+          <div id="rolledOne">
+            <p id="gotOne">You rolled a one!</p>
+          </div>
+      </div>
+        <div>
+
+
+        <div id="p1">
+          <button id="diceButton1" class="btn btn-primary" type="submit" name="roll">Roll</button>
+          <button id="holdButton1" class="btn btn-primary" type="submit" name="hold">Hold</button>
+        </div>
+        <div id="p2">
+          <button id="diceButton2" class="btn btn-danger" type="submit" name="roll">Roll</button>
+          <button id="holdButton2" class="btn btn-danger" type="submit" name="hold">Hold</button>
+        </div>
+      </div>
+      <div>
+        <div id="p1c" class="card" style="width: 18rem;">
+         <img class="card-img-top" src="img/dude.jpg" alt="Card image cap">
+         <h5 class="card-title">PLAYER 1:</h5>
+        <p id="p1n">click roll to start!</p>
+        </div>
+        <div id="p2c" class="card" style="width: 18rem;">
+          <img class="card-img-top" src="img/dudette.jpg" alt="Card image cap">
+          <h5 class="card-title">PLAYER 2</h5>
+          <p id="p2n">click roll to start!</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

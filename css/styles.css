@@ -1,0 +1,37 @@
+#p2, #p2c, #victory {
+  display: none
+}
+
+#dice {
+  height: 175px;
+}
+
+div {
+  text-align: center;
+}
+
+.card {
+  margin: auto
+}
+
+.btn {
+  margin: 10px;
+}
+
+#scoreFrame {
+  margin: 10px;
+}
+
+#gotOne {
+  display: none;
+  font-size: 30px;
+}
+
+#rolledOne {
+  height: 25px;
+}
+
+#player1Score, #player2Score {
+  font-size: 90px;
+  margin: 40px;
+}
